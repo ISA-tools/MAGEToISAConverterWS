@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="MAGE2ISAWebService:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="mage2isa.war">
-      <element id="artifact" artifact-name="MAGE2ISAWebService:war exploded" />
-    </root>
-  </artifact>
-</component>
