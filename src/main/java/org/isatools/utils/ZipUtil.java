@@ -30,7 +30,7 @@ public class ZipUtil {
     public File zipDirectoryContents(String archiveName, String directory, File[] files) {
 
         File archiveLocation;
-        byte[] buffer = new byte[18024];
+        byte[] buffer = new byte[1024];
         ZipOutputStream out;
 
         try {

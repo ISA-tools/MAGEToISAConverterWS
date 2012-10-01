@@ -6,7 +6,7 @@
 
     <groupId>org.isatools</groupId>
     <artifactId>MAGE2ISAWebService</artifactId>
-    <version>0.1</version>
+    <version>1.0</version>
     <packaging>war</packaging>
 
 
@@ -19,8 +19,8 @@
 
     <developers>
         <developer>
-            <name>Annapaola Santarsiero</name>
-            <email>annapaola.santarsiero@gmail.com</email>
+            <name>Eamonn Maguire</name>
+            <email>eamonnmag@gmail.com</email>
             <organization>ISAteam</organization>
             <organizationUrl>http://isa-tools.org</organizationUrl>
         </developer>
@@ -64,7 +64,7 @@
         <dependency>
             <groupId>org.isatools</groupId>
             <artifactId>MAGEToISATabConverter</artifactId>
-            <version>0.1</version>
+            <version>1.0</version>
         </dependency>
 
     </dependencies>
@@ -143,6 +143,11 @@
     </pluginRepositories>
 
     <repositories>
+
+        <repository>
+            <id>oerc</id>
+            <url>http://frog.oerc.ox.ac.uk:8080/nexus-2.1.2/content/groups/oerc/</url>
+        </repository>
 
         <repository>
             <id>maven2-repository.dev.java.net</id>
